@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: server
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://github.com/EternalJourneyman1/spring-config-server
+          clone-on-start: true
+        bootstrap: true
+  profiles:
+    active: development
+
