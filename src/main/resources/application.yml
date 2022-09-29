@@ -7,9 +7,9 @@ spring:
     config:
       server:
         git:
-          uri: http://github.com/EternalJourneyman1/spring-config-server
+          uri: https://github.com/EternalJourneyman1/spring-cloud-config-server-repo
+          default-label: master
           clone-on-start: true
         bootstrap: true
   profiles:
     active: development
-
